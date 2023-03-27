@@ -11,13 +11,14 @@ const Page = () => (
       <Explore />
     </div>
     <div className="relative">
-      <GetStarted />  
+      <GetStarted />
+      
     </div>
     <World />
     <div className="relative">
-      <Insights />
+     {/* <Insights /> */}
       <div className="gradient-04 z-0" />
-      <Feedback />
+     {/* <Feedback /> */}
     </div>
     <Footer />
   </div>

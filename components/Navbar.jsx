@@ -19,11 +19,15 @@ const Navbar = () => (
         alt='search' 
         className='w-[24px] h-[24px] object-contain' 
         />
-      <h2 className='font-extrabold text-[24px] leading-[30px] text-white'>
+      <h2 className={`font-normal sm:text-[45px] text-[25px] mt-[10px] leading-[25px] text-white `}>
         #Your Pet My Pet
       </h2>
       <button type='button' className='flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]' >
-          
+          <img 
+            src='/love.png'
+            alt='love'
+            className='w-[24px] h-[24px] object-contain'
+          />
           <span className='font-normal text-[16px] text-white'>LOGIN | SIGN UP</span>
         </button>
     </div>
